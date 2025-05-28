@@ -1,5 +1,5 @@
 import { connectToDB } from '@/lib/mongoose';
-import Product from '@/models/Product';
+import Product from '@/lib/Product';
 
 export default async function Home() {
   await connectToDB();
